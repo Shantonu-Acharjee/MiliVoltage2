@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    
+}
+.container{
+    width: 90%;
+    /* background-color: red; */
+    margin: 0 auto;
+}
+
+
+
+
+:root {
+    --bs-blue: #0d6efd;
+    --bs-indigo: #6610f2;
+    --bs-purple: #6f42c1;
+    --bs-pink: #d63384;
+    --bs-red: #e00;
+    --bs-orange: #fd7e14;
+    --bs-yellow: #f0ad4e;
+    --bs-green: #5cb85c;
+    --bs-teal: #20c997;
+    --bs-cyan: #5bc0de;
+    --bs-white: #fff;
+    --bs-gray: #6c757d;
+    --bs-ec-dark: #181818;
+    --bs-ec-dark-body: #d9d9d9;
+    --bs-primary: #fed700;
+    --bs-ec-primary: #fed700;
+    --bs-ec-primary-d: #e7c400;
+    --bs-secondary: #6c757d;
+    --bs-success: #5cb85c;
+    --bs-info: #5bc0de;
+    --bs-warning: #f0ad4e;
+    --bs-danger: #e00;
+    --bs-light: #f8f9fa;
+    --bs-dark: #333e48;
+    
+}
+
+
+
+
+
+
+
+/*------------------------
+Nav Start
+------------------------*/
+nav{
+    display: flex;
+    position: relative;
+
+    padding: 1rem 0;
+}
+
+
+
+.nav_menu{
+    position: absolute;
+    right: 0;
+}
+
+
+.nav_menu a{
+    text-decoration: none;
+    color: var(--bs-secondary);
+    margin-right: 1rem;
+}
+
+.nav_menu a::after{
+    content: '|';
+}
+.nav_menu i{
+    margin-right: .3 rem;
+}
+
+/*------------------------
+Nav End
+------------------------*/
+
+
